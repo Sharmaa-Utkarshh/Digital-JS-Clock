@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .all{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 12vh;
+            flex-wrap: wrap;
+        
+
+        }
+        .info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .in{
+            padding: 10px;
+            font-size: 2.5em;
+        }
+        #head{
+            font-size: 3.0em;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+      <h1 id="head">Digital Watch</h1>
+      <div class="info">
+      <span id="weekday" class="in">WeekDay</span> <span id="hours" class="in">Hours</span> <b> : </b>
+      <span id="minutes" class="in">Minutes</span> <b>:</b> <span id="seconds" class="in"> Seconds</span> <span id="phase" class="in">Phase</span>
+    </div>
+    </div>
+
+    <script src="clock.js"></script>
+  </body>
+</html>
